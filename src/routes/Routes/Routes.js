@@ -4,6 +4,7 @@ import Login from "../../components/form/Login";
 import Register from "../../components/form/Register";
 import Home from "../../components/Home/Home/Home";
 import RegisterList from "../../components/registerList/RegisterList";
+import ShowEvent from "../../components/ShowEvents/ShowEvent";
 
 export const routes = createBrowserRouter([
     {
@@ -29,5 +30,9 @@ export const routes = createBrowserRouter([
     {
         path: "/addEvent",
         element: <AddEvent></AddEvent>
+    },
+    {
+        path: "/showEvent",
+        element: <ShowEvent></ShowEvent>
     }
 ])

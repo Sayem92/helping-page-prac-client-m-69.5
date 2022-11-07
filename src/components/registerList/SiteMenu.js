@@ -20,7 +20,7 @@ const SiteMenu = () => {
                             <p className="text-sm ml-2 font-semibold   dark:text-gray-400">Volunteer Register List</p>
                         </div>
                         <div className="flex flex-col space-y-1 text-xl font-medium">
-                            <Link to='/'>+ Add Event</Link>
+                            <Link to='/addEvent'>+ Add Event</Link>
 
                         </div>
                     </div>
