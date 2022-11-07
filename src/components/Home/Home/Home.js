@@ -5,12 +5,12 @@ const Home = () => {
     return (
         <div>
 
-            <figure class="relative  transition-all duration-300 cursor-pointer filter ">
+            <figure className="relative  transition-all duration-300 cursor-pointer filter ">
                 <p>
-                    <img class="rounded-lg w-full opacity-20" src="https://i.ibb.co/QfdFqKW/1000-F-368745661-Tyh-VZ2-Hho-QS1-Fcr0-ZEOv-Rcglu-SIp-Nmzh.jpg" alt="caption description " />
+                    <img className="rounded-lg w-full opacity-20" src="https://i.ibb.co/QfdFqKW/1000-F-368745661-Tyh-VZ2-Hho-QS1-Fcr0-ZEOv-Rcglu-SIp-Nmzh.jpg" alt="caption description " />
                 </p>
 
-                <figcaption class="absolute top-6 w-full ">
+                <figcaption className="absolute top-6 w-full ">
                     <Navbar></Navbar>
                     <h1 className='text-center font-bold text-5xl text-orange-500'>I make by helping people teams</h1>
 
